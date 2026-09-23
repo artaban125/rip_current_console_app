@@ -68,10 +68,13 @@
 RipCurrentMonitoring/
 ├── 📁 Assets/                  # UI 리소스 및 사운드 효과
 ├── 📁 Config/                  # 시스템 및 카메라 설정 (appsettings.json)
-├── 📁 Models/                  # 데이터 엔티티 및 탐지 결과 DTO
+├── 📁 Models/                  # 데이터 엔티티, AI 모델 및 인증 키 파일
 │   ├── DetectionBox.cs         # BBox / OBB 경계 상자 좌표 구조체
 │   ├── DrifterAlert.cs         # 위험 경보 이벤트 모델
-│   └── CameraFeed.cs           # CCTV 채널 메타데이터
+│   ├── CameraFeed.cs           # CCTV 채널 메타데이터
+│   ├── swimmer.onnx            # 입수자/표류자 탐지 ONNX 모델
+│   ├── rip_current.onnx        # 이안류 탐지 ONNX 모델
+│   └── serviceAccountKey.json  # Firebase 서비스 계정 키 (저장소 미포함)
 ├── 📁 Services/                # 핵심 비즈니스 로직
 │   ├── VideoCaptureService.cs  # RTSP/영상 프레임 스트림 공급
 │   ├── OnnxInferenceService.cs # ONNX Runtime 기반 YOLO11 추론
@@ -116,6 +119,41 @@ RipCurrentMonitoring/
 
 ---
 
+## 📦 필수 실행 파일 (Models 폴더)
+
+프로그램 실행에는 `Models/` 폴더의 아래 3개 파일이 반드시 필요합니다. 실행 파일(.exe)과 **같은 위치의 `Models/` 폴더에 함께 복사**되어 있어야 하며, 하나라도 없으면 모델 로드 또는 Firebase 연동 단계에서 실행이 실패합니다.
+
+| 파일 | 설명 |
+| :--- | :--- |
+| `swimmer.onnx` | 입수자/표류자(Person) 탐지 모델 |
+| `rip_current.onnx` | 이안류(Rip Current) 탐지 모델 |
+| `serviceAccountKey.json` | Firebase 서비스 계정 인증 키 |
+
+- **빌드 시 자동 복사**: `.csproj`에 아래 설정이 포함되어 있어, 빌드/배포 시 `Models/` 폴더가 출력 폴더(`bin/...`, `dist/`)로 자동 복사됩니다.
+
+  ```xml
+  <ItemGroup>
+    <None Update="Models\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  ```
+
+- **수동 배포 시**: 실행 폴더를 다른 PC로 옮길 때는 `.exe`와 함께 `Models/` 폴더 전체를 같은 위치에 복사해야 합니다.
+
+  ```text
+  배포 폴더/
+  ├── RipCurrentMonitoring.exe
+  └── 📁 Models/
+      ├── swimmer.onnx
+      ├── rip_current.onnx
+      └── serviceAccountKey.json
+  ```
+
+- **`serviceAccountKey.json`은 보안상 저장소에 포함되어 있지 않습니다** (`.gitignore` 처리). 저장소를 클론한 후 Firebase 콘솔에서 발급받은 키 파일을 `Models/` 폴더에 직접 넣어야 합니다.
+
+---
+
 ## 🚀 빌드 및 배포 (Build & Deployment)
 
 본 관제 프로그램은 현장 관제 PC 및 상황실 서버에 **.NET 8 런타임이 사전 설치되어 있지 않아도 즉시 실행 가능한 완전 독립형 단일 파일(Single-File Self-Contained)** 배포를 권장합니다.
@@ -133,7 +171,7 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 
 > **배포 시 산출물 안내**:
 > - `./dist/RipCurrentMonitoring.exe`: 독립 실행형 단일 관제 프로그램.
-> - `./dist/weights/`: ONNX AI 모델 가중치 폴더.
+> - `./dist/Models/`: ONNX AI 모델(`swimmer.onnx`, `rip_current.onnx`) 및 `serviceAccountKey.json` 폴더. **반드시 실행 파일과 함께 복사해야 합니다.**
 > - `./dist/appsettings.json`: 현장 카메라 RTSP 및 임계치 설정 파일.
 
 ---
