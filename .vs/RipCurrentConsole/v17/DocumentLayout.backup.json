@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|d:\\work\\ripcurrentconsole_v2\\ripcurrentconsole\\ripcurrentconsole\\alertdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|solutionrelative:ripcurrentconsole\\alertdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|d:\\work\\ripcurrentconsole_v2\\ripcurrentconsole\\ripcurrentconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|solutionrelative:ripcurrentconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|d:\\work\\ripcurrentconsole_v2\\ripcurrentconsole\\ripcurrentconsole\\yolodetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|solutionrelative:ripcurrentconsole\\yolodetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertDispatcher.cs",
+              "DocumentMoniker": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\RipCurrentConsole\\AlertDispatcher.cs",
+              "RelativeDocumentMoniker": "RipCurrentConsole\\AlertDispatcher.cs",
+              "ToolTip": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\RipCurrentConsole\\AlertDispatcher.cs",
+              "RelativeToolTip": "RipCurrentConsole\\AlertDispatcher.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAQwLAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T15:27:25.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YoloDetector.cs",
+              "DocumentMoniker": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\RipCurrentConsole\\YoloDetector.cs",
+              "RelativeDocumentMoniker": "RipCurrentConsole\\YoloDetector.cs",
+              "ToolTip": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\RipCurrentConsole\\YoloDetector.cs",
+              "RelativeToolTip": "RipCurrentConsole\\YoloDetector.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAQwIsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T15:16:44.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\RipCurrentConsole\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RipCurrentConsole\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Work\\RipCurrentConsole_v2\\RipCurrentConsole\\RipCurrentConsole\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RipCurrentConsole\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC4CAAAAAAAAAAAzwFgCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T14:24:06.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12210.168 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RipCurrentConsole", "RipCurrentConsole\RipCurrentConsole.csproj", "{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Debug|x64.ActiveCfg = Debug|x64
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Debug|x64.Build.0 = Debug|x64
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Release|x64.ActiveCfg = Release|x64
+		{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10AD6A80-3E82-4143-BC1D-8A4DB9B6F477}
+	EndGlobalSection
+EndGlobal

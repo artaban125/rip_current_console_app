@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|c:\\users\\user\\documents\\daive-cv\\cv10_deploy\\rip_current\\ripcurrentconsole_v3\\ripcurrentconsole\\ripcurrentconsole\\alertdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|solutionrelative:ripcurrentconsole\\alertdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|c:\\users\\user\\documents\\daive-cv\\cv10_deploy\\rip_current\\ripcurrentconsole_v3\\ripcurrentconsole\\ripcurrentconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|solutionrelative:ripcurrentconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|c:\\users\\user\\documents\\daive-cv\\cv10_deploy\\rip_current\\ripcurrentconsole_v3\\ripcurrentconsole\\ripcurrentconsole\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC74FC9-EEFC-487A-BFEE-16FA6C150103}|RipCurrentConsole\\RipCurrentConsole.csproj|solutionrelative:ripcurrentconsole\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlertDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\RipCurrentConsole\\AlertDispatcher.cs",
+              "RelativeDocumentMoniker": "RipCurrentConsole\\AlertDispatcher.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\RipCurrentConsole\\AlertDispatcher.cs",
+              "RelativeToolTip": "RipCurrentConsole\\AlertDispatcher.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAkwPMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T02:12:22.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\RipCurrentConsole\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RipCurrentConsole\\SettingsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\RipCurrentConsole\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "RipCurrentConsole\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T05:28:06.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\RipCurrentConsole\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RipCurrentConsole\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Daive-CV\\CV10_Deploy\\rip_current\\RipCurrentConsole_v3\\RipCurrentConsole\\RipCurrentConsole\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RipCurrentConsole\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADQCAAAAAAAAAAAkwEUCAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T02:17:11.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
